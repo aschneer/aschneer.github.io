@@ -7,12 +7,12 @@
 body
 {
 	position: relative;
-	background-image: url("../images/background_01.png");
+	background-image: url("../images/retina_wood_2x.png");
 /*	background-color: white;*/
-	background-size: 100% auto;
+/*	background-size: 100% auto;
 	background-attachment: scroll;
 	background-repeat: repeat-y;
-	background-position: left top;
+	background-position: left top;*/
 	overflow: scroll;
 }
 div#wrapper
