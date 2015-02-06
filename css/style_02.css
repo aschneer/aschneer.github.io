@@ -1,0 +1,84 @@
+
+/* GENERAL RULES */
+
+*:not(title)
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background-image: url("../images/retina_wood_2x.png");
+}
+h1
+{
+	text-align: center;
+	font-family: serif;
+	font-size: 48px;
+	font-style: italic;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+img
+{
+	border-radius: 100%;
+	box-shadow: 0px 0px 10px 3px black;
+}
+a
+{
+	color: black;
+	text-decoration: none;
+}
+a:hover
+{
+	color: gray;
+}
+
+/* CLASS SPECIFIC RULES */
+
+div.headline_01
+{
+	width: 100%;
+	margin-top: 40px;
+}
+div.buttonBar
+{
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+div.buttonBar ul
+{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+div.buttonBar a
+{
+	text-align: center;
+	font-family: serif;
+	font-size: 24px;
+	font-style: italic;
+}
+div.buttonBar li
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* ID SPECIFIC RULES */
+
+div#profPic
+{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+div#profPic img
+{
+	width: 25%;
+	min-width: 200px;
+}
