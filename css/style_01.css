@@ -10,14 +10,21 @@ body
 {
 	background-image: url("../images/retina_wood_2x.png");
 }
-h1
+h1,h2
 {
 	text-align: center;
 	font-family: serif;
-	font-size: 48px;
 	font-style: italic;
 	padding-left: 10%;
 	padding-right: 10%;
+}
+h1
+{
+	font-size: 48px;
+}
+h2
+{
+	font-size: 20pt;
 }
 img
 {
@@ -96,10 +103,7 @@ div#header ul
 }
 div#header h2
 {
-	font-family: serif;
-	font-size: 20pt;
-	font-style: italic;
-	padding-top: 14%;
+	padding-top: 12%;
 }
 div#header li
 {
