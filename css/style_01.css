@@ -49,12 +49,19 @@ div.buttonBar
 }
 div.buttonBar ul
 {
-	list-style: none;
+	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding-left: 25%;
 	padding-right: 25%;
+}
+div.buttonBar li
+{
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
 }
 div.buttonBar a
 {
@@ -63,10 +70,9 @@ div.buttonBar a
 	font-size: 24px;
 	font-style: italic;
 }
-div.buttonBar li
+div.buttonBar img
 {
-	padding-left: 15px;
-	padding-right: 15px;
+	width: 100px;
 }
 
 /* ID SPECIFIC RULES */
@@ -81,4 +87,21 @@ div#profPic img
 {
 	width: 25%;
 	min-width: 200px;
+}
+div#header ul
+{
+	max-width: 500px;
+	padding-left: 5%;
+	padding-right: 0px;
+}
+div#header h2
+{
+	font-family: serif;
+	font-size: 20pt;
+	font-style: italic;
+	padding-top: 14%;
+}
+div#header li
+{
+	padding-bottom: 0px;
 }
