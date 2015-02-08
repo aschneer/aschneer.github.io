@@ -24,7 +24,7 @@ h1
 }
 h2
 {
-	font-size: 20pt;
+	font-size: 12pt;
 }
 img
 {
@@ -36,9 +36,16 @@ a
 	color: black;
 	text-decoration: none;
 }
-a:hover
+ul
 {
-	color: gray;
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+li
+{
+	display: inline-block;
+	float: left;
 }
 
 /* CLASS SPECIFIC RULES */
@@ -48,10 +55,6 @@ div.headline_01
 	width: 100%;
 	margin-top: 40px;
 }
-div.headline_02
-{
-
-}
 div.buttonBar
 {
 	width: 100%;
@@ -60,15 +63,11 @@ div.buttonBar
 }
 div.buttonBar ul
 {
-	list-style-type: none;
-	display: inline-block;
 	padding-left: 25%;
 	padding-right: 25%;
 }
 div.buttonBar li
 {
-	float: left;
-	text-align: center;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom: 15px;
@@ -80,9 +79,84 @@ div.buttonBar a
 	font-size: 24px;
 	font-style: italic;
 }
-div.buttonBar img
+div.buttonBar a:hover
+{
+	color: gray;
+}
+div.navBar
+{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	background-color: rgba(139,69,19,0.3);
+}
+div.navBar ul
+{
+	height: 100%;
+}
+div.navBar ul li
+{
+	height: 100%;
+}
+div.navBar h2
+{
+	text-align: left;
+	padding: 0px;
+	padding-top: 8px;
+}
+div.navBar a
+{
+	display: inline-block;
+	text-align: center;
+	font-family: serif;
+	font-style: italic;
+	height: 41px;
+	padding-top: 19px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+div.navBar img
 {
 	width: 50px;
+}
+ul.logo li
+{
+	height: 100%;
+}
+ul.menu
+{
+	height: 100%;
+	padding-left: 50px;
+
+}
+ul.menu li
+{
+	height: 100%;
+/*	border-left-style: none;
+	border-right-style: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: black;/*
+/*	box-shadow: 0px 0px 5px 1px black;*/
+/*	background-color: rgba(139,69,19,0.3);*/
+}
+ul.menu li.endButton
+{
+/*	border-style: solid;
+	border-width: 1px;
+	border-color: black;*/
+}
+ul.menu li:hover
+{
+	background-color: rgba(12,69,19,0.3);
+}
+div.subtitle
+{
+	margin-top: 80px;
 }
 
 /* ID SPECIFIC RULES */
@@ -98,26 +172,16 @@ div#profPic img
 	width: 25%;
 	min-width: 200px;
 }
-div#header
+ul.logo li#logoPic
 {
-	margin-top: 0px;
-	background-color: rgba(139,69,19,0.3);
-}
-div#header ul
-{
-	max-width: 500px;
-	padding-left: 10px;
-	padding-right: 0px;
-	padding-top: 8px;
-}
-div#header li
-{
-	padding-left: 0px;
-	padding-right: 20px;
-	padding-bottom: 0px;
-}
-div#header h2
-{
-	padding: 0px;
+	padding-left: 5px;
 	padding-top: 5px;
+}
+ul.logo li#logoText
+{
+	padding-left: 15px;
+}
+div.navBar ul#navRootUL
+{
+	min-width: 520px;
 }
