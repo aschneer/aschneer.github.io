@@ -39,12 +39,9 @@ a
 ul
 {
 	list-style-type: none;
-	display: inline-block;
-	float: left;
 }
 li
 {
-	display: inline-block;
 	float: left;
 }
 
@@ -57,29 +54,34 @@ div.headline_01
 }
 div.buttonBar
 {
-	width: 100%;
+	width: 70%;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
 }
 div.buttonBar ul
 {
-	padding-left: 25%;
-	padding-right: 25%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 20%;
+	padding-right: 20%;
 }
-div.buttonBar li
+div.buttonBar ul li
 {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
 	padding-bottom: 15px;
 }
-div.buttonBar a
+div.buttonBar ul li a
 {
 	text-align: center;
 	font-family: serif;
 	font-size: 24px;
 	font-style: italic;
 }
-div.buttonBar a:hover
+div.buttonBar ul li a:hover
 {
 	color: gray;
 }
@@ -152,7 +154,7 @@ ul.menu li.endButton
 }
 ul.menu li:hover
 {
-	background-color: rgba(12,69,19,0.3);
+	background-color: rgba(139,69,19,0.4);
 }
 div.subtitle
 {
@@ -171,6 +173,7 @@ div#profPic img
 {
 	width: 25%;
 	min-width: 200px;
+	max-width: 300px;
 }
 ul.logo li#logoPic
 {
