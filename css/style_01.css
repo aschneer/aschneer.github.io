@@ -10,21 +10,30 @@ body
 {
 	background-image: url("../images/retina_wood_2x.png");
 }
-h1,h2
+h1,h2,h3
 {
 	text-align: center;
 	font-family: serif;
 	font-style: italic;
-	padding-left: 10%;
-	padding-right: 10%;
 }
 h1
 {
-	font-size: 48px;
+	font-size: 36pt;
 }
 h2
 {
 	font-size: 12pt;
+}
+h3
+{
+	font-size: 20pt;
+}
+p
+{
+	font-size: 12pt;
+	text-indent: 50px;
+	text-align: justify;
+	line-height: 1.5;
 }
 img
 {
@@ -156,9 +165,35 @@ ul.menu li:hover
 {
 	background-color: rgba(139,69,19,0.4);
 }
+div.title
+{
+	width: 100%;
+	margin-top: 80px;
+}
+div.title h3
+{
+	text-align: left;
+	padding-left: 30px;
+}
 div.subtitle
 {
-	margin-top: 80px;
+	width: 100%;
+}
+div.subtitle h4
+{
+	text-align: left;
+	padding-left: 50px;
+}
+div.paragraph
+{
+	width: 100%;
+	margin-top: 15px;
+}
+div.paragraph p
+{
+	padding-left: 50px;
+	padding-right: 50px;
+	max-width: 600px;
 }
 
 /* ID SPECIFIC RULES */
