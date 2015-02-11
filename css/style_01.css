@@ -9,8 +9,10 @@
 body
 {
 	background-image: url("../images/retina_wood_2x.png");
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
-h1,h2,h3
+h1,h2,h3,h4,h5
 {
 	text-align: center;
 	font-family: serif;
@@ -26,12 +28,19 @@ h2
 }
 h3
 {
-	font-size: 20pt;
+	font-size: 24pt;
+}
+h4
+{
+	font-size: 16pt;
+}
+h5
+{
+	font-size: 12pt;
 }
 p
 {
 	font-size: 12pt;
-	text-indent: 50px;
 	text-align: justify;
 	line-height: 1.5;
 }
@@ -53,6 +62,10 @@ li
 {
 	float: left;
 }
+div
+{
+	width: 100%;
+}
 
 /* CLASS SPECIFIC RULES */
 
@@ -64,6 +77,7 @@ div.headline_01
 div.buttonBar
 {
 	width: 70%;
+	max-width: 650px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	margin-left: auto;
@@ -146,20 +160,6 @@ ul.menu
 ul.menu li
 {
 	height: 100%;
-/*	border-left-style: none;
-	border-right-style: none;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-width: 1px;
-	border-color: black;/*
-/*	box-shadow: 0px 0px 5px 1px black;*/
-/*	background-color: rgba(139,69,19,0.3);*/
-}
-ul.menu li.endButton
-{
-/*	border-style: solid;
-	border-width: 1px;
-	border-color: black;*/
 }
 ul.menu li:hover
 {
@@ -168,32 +168,57 @@ ul.menu li:hover
 div.title
 {
 	width: 100%;
-	margin-top: 80px;
 }
 div.title h3
 {
 	text-align: left;
-	padding-left: 30px;
+	padding-left: 25px;
 }
 div.subtitle
 {
 	width: 100%;
+	margin-top: 20px;
 }
 div.subtitle h4
 {
 	text-align: left;
 	padding-left: 50px;
+	font-style: normal;
 }
-div.paragraph
+div.content
 {
-	width: 100%;
 	margin-top: 15px;
 }
-div.paragraph p
+div.content > *
 {
 	padding-left: 50px;
+	padding-left: 50px;
 	padding-right: 50px;
-	max-width: 600px;
+	max-width: 800px;
+	text-align: left;
+}
+div.content h5
+{
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+div.content ul
+{
+	list-style-type: disc;
+	list-style-position: outside;
+}
+div.content ul.lev01
+{
+	padding-left: 65px;
+}
+div.content ul.lev02
+{
+	padding-left: 115px;
+}
+div.content ul li
+{
+	float: none;
 }
 
 /* ID SPECIFIC RULES */
