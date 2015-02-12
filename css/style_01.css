@@ -110,7 +110,7 @@ div.buttonBar ul li a:hover
 }
 div.navBar
 {
-	position: fixed;
+	position: absolute;
 	top: 0px;
 	width: 100%;
 	height: 60px;
