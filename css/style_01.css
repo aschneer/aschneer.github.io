@@ -69,9 +69,10 @@ div
 
 /* CLASS SPECIFIC RULES */
 
+/* Main Page: */
+
 div.headline_01
 {
-	width: 100%;
 	margin-top: 40px;
 }
 div.buttonBar
@@ -108,14 +109,14 @@ div.buttonBar ul li a:hover
 {
 	color: gray;
 }
+
+/* Content Page Nav. Bar: */
+
 div.navBar
 {
 	position: absolute;
 	top: 0px;
-	width: 100%;
 	height: 60px;
-	margin-top: 0px;
-	margin-bottom: 40px;
 	background-color: rgba(139,69,19,0.3);
 }
 div.navBar ul
@@ -129,8 +130,7 @@ div.navBar ul li
 div.navBar h2
 {
 	text-align: left;
-	padding: 0px;
-	padding-top: 8px;
+	padding-top: 9px;
 }
 div.navBar a
 {
@@ -145,7 +145,7 @@ div.navBar a
 }
 div.navBar img
 {
-	width: 50px;
+	height: 50px;
 }
 ul.logo li
 {
@@ -165,10 +165,9 @@ ul.menu li:hover
 {
 	background-color: rgba(139,69,19,0.4);
 }
-div.title
-{
-	width: 100%;
-}
+
+/* Content Page Content: */
+
 div.title h3
 {
 	text-align: left;
@@ -176,7 +175,6 @@ div.title h3
 }
 div.subtitle
 {
-	width: 100%;
 	margin-top: 20px;
 }
 div.subtitle h4
@@ -225,7 +223,6 @@ div.content ul li
 
 div#profPic
 {
-	width: 100%;
 	text-align: center;
 	margin-top: 40px;
 }
