@@ -1,5 +1,12 @@
 # aschneer.github.io
 
+Andrew Schneer
+Tufts University, 2015
+COMP 20
+Ming Chow
+Assignment 01 - Personal Portfolio Webpage
+README.txt
+
 I have implemented almost all aspects of this
 assignment correctly.  The only aspect that
 I would like to have implemented better was
@@ -30,3 +37,16 @@ CSS issues effectively because of too many
 overlapping and conflicting rules.
 Lucy helped me to start thinking about a web
 page from a broad sense down to a narrow sense.
+In other words, start by styling with rules
+that apply to the widest range of elements,
+using classes.  Then, take care of individual
+rules and exceptions using IDs.
+
+I have spent approximately 30 hours total
+working on this assignment.  This may seem like
+a lot, and it might have even been more than
+this.  I had the core site done in a lot less
+time, but I spent a lot of extra time
+both experimenting with different site styles,
+and getting comfortable with CSS rules and
+selectors.  It was fun.
